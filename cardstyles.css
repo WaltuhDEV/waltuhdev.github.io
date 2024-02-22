@@ -1,0 +1,94 @@
+ * 
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+
+      body {
+        font-family: Arial, sans-serif;
+        -webkit-tap-highlight-color:transparent;
+        background: linear-gradient(135deg, #ff8300, #ffa300);
+      }
+
+
+      .container {
+        max-width: 350px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
+
+
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-image: url(https://static.wikia.nocookie.net/silly-cat/images/2/29/The_Beast.png/revision/latest?cb=20231001184905);
+        background-size: cover;
+        background-position: center;
+        border: 5px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+
+      .profile-name {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 20px;
+        color: #333;
+      }
+
+
+      .profile-info {
+        margin-top: 20px;
+      }
+
+
+      .profile-info p {
+        text-align: center;
+        font-size:23px ;
+        color: #555;
+        margin-bottom: 10px;
+        font-variant: small-caps;
+      }
+
+
+      .social-icons {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+
+      .social-icons a {
+        display: inline-block;
+        margin-right: 10px;
+        color: #333;
+        font-size: 20px;
+        transition: color 0.3s ease;
+      }
+
+
+      .social-icons a:hover {
+        color: red;
+      }
+      
+      #yt{
+  display: block;
+        background-color: #ffe927;
+        padding: 1.5em 0;
+        margin-top: 1.5em;
+        text-align: center;
+        color: #000000;
+        font-family: "Poppins", sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+        font-weight: 500;
+        border-radius: 0.5em;
+}
+      {        
